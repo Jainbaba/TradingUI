@@ -1,0 +1,671 @@
+2021-05-27 01:03:01,644 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:33:11,868 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:33:49,034 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:33:49,783 ERROR :: Error while making GET request to /api/v3/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action.'}(error code 401)
+2021-05-27 01:35:10,720 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:35:11,418 ERROR :: Error while making GET request to /api/v3/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action.'}(error code 401)
+2021-05-27 01:35:48,921 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:35:49,652 ERROR :: Error while making GET request to /api/v3/account: {'code': -2015, 'msg': 'Invalid API-key, IP, or permissions for action.'}(error code 401)
+2021-05-27 01:37:10,302 INFO :: Binance Spot Client successfully initialized
+2021-05-27 01:38:07,540 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:49:59,463 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:51:23,856 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:51:25,312 ERROR :: Error while making POST request to /api/v3/order: {'code': -1115, 'msg': 'Invalid timeInForce.'}(error code 400)
+2021-05-27 11:51:41,571 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:51:42,900 ERROR :: Error while making POST request to /api/v3/order: {'code': -1115, 'msg': 'Invalid timeInForce.'}(error code 400)
+2021-05-27 11:52:03,669 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:52:05,002 ERROR :: Error while making POST request to /api/v3/order: {'code': -1115, 'msg': 'Invalid timeInForce.'}(error code 400)
+2021-05-27 11:52:56,024 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:54:35,513 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:55:28,078 INFO :: Binance Spot Client successfully initialized
+2021-05-27 11:55:53,839 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:11:57,503 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:11:58,026 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2021-05-27 12:11:58,028 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7fa38de6f040>>: on_close() takes 2 positional arguments but 4 were given
+2021-05-27 12:12:05,733 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:12:06,004 ERROR :: Binance connection error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1123)
+2021-05-27 12:12:06,005 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7fd0e01a5bb0>>: on_close() takes 2 positional arguments but 4 were given
+2021-05-27 12:13:09,407 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:13:10,771 ERROR :: Binance connection error: Handshake status 200 OK
+2021-05-27 12:13:10,772 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7fd8a098b790>>: on_close() takes 2 positional arguments but 4 were given
+2021-05-27 12:14:45,477 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:14:46,689 ERROR :: Binance connection error: Handshake status 200 OK
+2021-05-27 12:14:46,690 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7ff8b21a3be0>>: on_close() takes 1 positional argument but 4 were given
+2021-05-27 12:19:38,156 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:19:38,499 ERROR :: Binance connection error: scheme https is invalid
+2021-05-27 12:19:38,500 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7fb3019a4bb0>>: on_close() takes 2 positional arguments but 4 were given
+2021-05-27 12:19:49,718 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:19:50,780 ERROR :: Binance connection error: Handshake status 200 OK
+2021-05-27 12:19:50,780 ERROR :: error from callback <bound method BinanceSpotClient.on_close of <connectors.binance_spot.BinanceSpotClient object at 0x7fb30b9a5bb0>>: on_close() takes 2 positional arguments but 4 were given
+2021-05-27 12:21:07,620 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:21:08,495 INFO :: Binance Websocket connection opened
+2021-05-27 12:54:48,398 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:54:49,589 INFO :: Binance Websocket connection opened
+2021-05-27 12:57:26,658 INFO :: Binance Spot Client successfully initialized
+2021-05-27 12:57:27,641 INFO :: Binance Websocket connection opened
+2021-05-27 13:11:15,500 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:11:16,481 INFO :: Binance Websocket connection opened
+2021-05-27 13:11:50,513 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:11:51,599 INFO :: Binance Websocket connection opened
+2021-05-27 13:11:51,760 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fad309a2c10>>: on_message() takes 2 positional arguments but 3 were given
+2021-05-27 13:12:16,336 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:12:17,212 INFO :: Binance Websocket connection opened
+2021-05-27 13:14:59,670 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:15:00,683 INFO :: Binance Websocket connection opened
+2021-05-27 13:15:57,046 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:15:57,946 INFO :: Binance Websocket connection opened
+2021-05-27 13:16:15,000 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:16:15,969 INFO :: Binance Websocket connection opened
+2021-05-27 13:17:34,157 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:17:35,505 INFO :: Binance Websocket connection opened
+2021-05-27 13:17:35,669 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:36,360 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:36,385 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:36,408 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:37,363 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:37,388 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:37,439 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:37,611 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:38,369 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:38,411 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:38,435 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:39,478 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:39,479 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:39,479 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:39,480 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:40,362 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:40,383 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:40,408 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:40,434 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:41,646 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:41,647 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:41,648 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:42,363 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:42,463 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:43,489 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:43,490 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:44,363 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:44,409 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:45,366 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:45,390 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:45,437 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:46,766 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:46,767 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:47,419 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:47,441 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:48,361 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:48,427 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:49,365 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:49,390 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:49,417 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:50,453 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:50,456 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:50,457 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:51,383 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:51,444 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:52,499 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:52,499 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:53,729 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:53,730 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:54,374 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:54,385 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:54,428 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:55,377 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:55,423 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:55,446 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:56,354 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:56,405 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:57,620 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:57,621 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:57,621 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:57,622 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:58,359 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:58,387 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:58,411 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:59,462 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:59,463 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:17:59,464 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:18:00,486 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:18:00,487 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f7f559a5bb0>>: 'str' object has no attribute 'read'
+2021-05-27 13:18:10,956 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:18:12,139 INFO :: Binance Websocket connection opened
+2021-05-27 13:26:47,301 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:26:48,252 INFO :: Binance Websocket connection opened
+2021-05-27 13:26:48,415 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:49,455 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:49,456 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:50,347 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:50,375 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:50,391 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:51,344 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:51,373 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:52,526 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:52,528 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:52,529 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:53,550 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:53,552 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:53,553 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:54,575 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:54,576 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:54,577 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:55,394 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:55,396 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:56,349 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:56,363 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:56,376 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:56,386 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:57,578 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:57,578 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:58,540 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:58,541 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:58,542 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:59,351 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:59,365 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:26:59,395 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:00,365 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:00,397 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:00,426 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:01,537 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:01,538 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:02,557 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:02,558 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:02,559 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:02,561 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:03,380 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:03,381 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:03,382 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:03,389 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:04,404 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:04,405 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:04,406 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:05,350 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:05,376 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:05,390 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:06,348 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:06,372 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:06,378 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:07,345 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:07,377 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:07,391 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:08,500 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:08,501 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:08,502 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:09,403 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:09,404 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:09,405 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:10,547 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:10,548 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:10,549 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:10,550 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:11,367 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:11,368 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:11,382 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:12,391 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:12,392 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:12,404 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:13,620 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:13,621 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:13,622 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:14,627 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:14,629 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:15,349 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:15,379 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:15,392 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:16,665 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:16,666 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:17,510 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:17,511 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:17,511 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:18,349 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:18,360 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:18,374 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:19,352 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:19,365 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:19,383 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fbd9e9a5b80>>: 'str' object has no attribute 'read'
+2021-05-27 13:27:21,272 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:27:22,169 INFO :: Binance Websocket connection opened
+2021-05-27 13:27:22,338 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7f99a69a5b80>>: 's'
+2021-05-27 13:27:56,133 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:27:57,129 INFO :: Binance Websocket connection opened
+2021-05-27 13:27:57,293 ERROR :: error from callback <bound method BinanceSpotClient.on_message of <connectors.binance_spot.BinanceSpotClient object at 0x7fc8bc1a5b80>>: 's'
+2021-05-27 13:29:00,944 INFO :: Binance Spot Client successfully initialized
+2021-05-27 13:29:01,877 INFO :: Binance Websocket connection opened
+2021-05-27 15:41:42,441 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:41:43,148 INFO :: Binance Websocket connection opened
+2021-05-27 15:42:29,692 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:42:30,382 INFO :: Binance Websocket connection opened
+2021-05-27 15:42:39,961 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:42:40,738 INFO :: Binance Websocket connection opened
+2021-05-27 15:44:22,099 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:44:22,854 INFO :: Binance Websocket connection opened
+2021-05-27 15:44:50,197 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:44:50,811 INFO :: Binance Websocket connection opened
+2021-05-27 15:46:18,950 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:46:19,676 INFO :: Binance Websocket connection opened
+2021-05-27 15:56:50,676 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:56:51,413 INFO :: Binance Websocket connection opened
+2021-05-27 15:57:11,543 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:57:12,163 INFO :: Binance Websocket connection opened
+2021-05-27 15:57:36,189 INFO :: Binance Future Client successfully initialized
+2021-05-27 15:57:36,829 INFO :: Binance Websocket connection opened
+2021-05-27 16:05:13,524 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:05:14,205 INFO :: Binance Websocket connection opened
+2021-05-27 16:05:14,214 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -1115, 'msg': 'Invalid timeInForce.'}(error code 400)
+2021-05-27 16:05:38,086 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:05:38,648 ERROR :: Error while making POST request to /fapi/v1/order: {'code': -4164, 'msg': "Order's notional must be no smaller than 10.0 (unless you choose reduce only)"}(error code 400)
+2021-05-27 16:05:38,707 INFO :: Binance Websocket connection opened
+2021-05-27 16:05:54,259 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:05:54,935 INFO :: Binance Websocket connection opened
+2021-05-27 16:07:08,489 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:07:09,137 ERROR :: Error while making GET request to /api/v3/order: {'timestamp': 1622111829513, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/api/v3/order'}(error code 404)
+2021-05-27 16:07:09,144 INFO :: Binance Websocket connection opened
+2021-05-27 16:07:35,344 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:07:35,958 INFO :: Binance Websocket connection opened
+2021-05-27 16:11:16,698 INFO :: Binance Future Client successfully initialized
+2021-05-27 16:11:17,406 ERROR :: Error while making DELETE request to /fapi/v1/order: {'code': -2011, 'msg': 'Unknown order sent.'}(error code 400)
+2021-05-27 16:11:17,429 INFO :: Binance Websocket connection opened
+2021-05-27 18:00:19,124 INFO :: Binance Future Client successfully initialized
+2021-05-27 18:00:19,798 INFO :: Binance Websocket connection opened
+2021-05-27 18:00:48,511 INFO :: Binance Future Client successfully initialized
+2021-05-27 18:00:49,475 INFO :: Binance Websocket connection opened
+2021-05-27 18:01:37,560 INFO :: Binance Future Client successfully initialized
+2021-05-27 18:01:38,285 INFO :: Binance Websocket connection opened
+2021-05-27 22:25:58,314 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:25:59,844 INFO :: Binance Websocket connection opened
+2021-05-27 22:26:01,506 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:01,507 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:03,035 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:05,136 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:07,232 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:07,244 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:09,350 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:09,364 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:11,728 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:13,156 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:15,215 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:15,222 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:17,337 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:17,353 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:19,889 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:19,890 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:21,089 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:21,115 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:23,229 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:23,255 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:25,454 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:25,455 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:27,514 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:29,334 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:31,188 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:31,221 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:33,642 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:33,643 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:35,477 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:35,488 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:37,116 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:37,439 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:39,499 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:39,500 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:41,394 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:26:41,395 INFO :: BNBUSDT 250.0 / 431.847
+2021-05-27 22:39:58,370 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:39:59,695 INFO :: Binance Websocket connection opened
+2021-05-27 22:41:13,278 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:41:14,649 INFO :: Binance Websocket connection opened
+2021-05-27 22:42:47,947 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:42:49,468 INFO :: Binance Websocket connection opened
+2021-05-27 22:43:09,134 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:43:10,459 INFO :: Binance Websocket connection opened
+2021-05-27 22:43:38,010 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:43:40,563 INFO :: Binance Websocket connection opened
+2021-05-27 22:44:11,903 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:44:14,866 INFO :: Binance Websocket connection opened
+2021-05-27 22:44:48,561 INFO :: Binance Future Client successfully initialized
+2021-05-27 22:44:49,842 INFO :: Binance Websocket connection opened
+2021-05-28 16:39:06,992 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb3e19fbf70>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:39:07,004 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622200146994&signature=477ebb80580c0bf54cdbf8ef9d3a5ffe67b47034b0286a1a373e8ac16786912c (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb3e19fb160>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:39:07,005 INFO :: Binance Future Client successfully initialized
+2021-05-28 16:39:07,288 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:07,289 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:09,293 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:09,294 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:11,297 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:11,298 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:13,304 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:13,305 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:15,309 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:15,309 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:17,314 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:17,315 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:19,320 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:19,320 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:21,323 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:21,323 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:23,329 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:23,329 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:25,336 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:25,336 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:27,341 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:27,341 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:29,348 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:29,348 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:31,352 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:31,352 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:33,358 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:33,359 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:35,363 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:35,364 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:37,370 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:37,370 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:39,377 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:39,377 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:41,384 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:41,384 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:43,388 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:43,388 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:39:45,392 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:39:45,392 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fb3e19cea00>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:41:52,833 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5789fc190>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:41:52,837 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622200312833&signature=d3aa61698a2ad9f2b59dfb83a198e8d60ab36fe48fc7674ca2cc4e5098f61ee2 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe5789fc5b0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:41:52,838 INFO :: Binance Future Client successfully initialized
+2021-05-28 16:41:52,952 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:41:52,953 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe5789ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:41:54,958 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:41:54,958 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe5789ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:41:56,965 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:41:56,966 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe5789ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:41:58,969 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:41:58,969 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe5789ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:47:19,338 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f829f9fefd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:47:19,343 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622200639339&signature=f83461e2b88b9c6370e3f5ac85ca1e33d12ceacadba2c22e5f1d93bd616328bc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f829f9fe760>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 16:47:19,343 INFO :: Binance Future Client successfully initialized
+2021-05-28 16:47:19,472 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:47:19,472 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f829f9ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:47:21,478 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:47:21,479 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f829f9ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:47:23,485 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:47:23,485 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f829f9ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 16:47:25,490 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 16:47:25,490 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f829f9ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 17:01:23,382 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe27a9fabb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 17:01:23,388 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622201483382&signature=9976210915d10628793961152405ac9c115d9d73d9344cff1670d0d429e3922f (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe27a9fa0d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 17:01:23,389 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:01:23,580 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 17:01:23,580 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe27aa04970>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 17:01:27,004 INFO :: Binance Websocket connection opened
+2021-05-28 17:01:35,412 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:01:36,877 INFO :: Binance Websocket connection opened
+2021-05-28 17:03:19,792 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:03:20,518 INFO :: Binance Websocket connection opened
+2021-05-28 17:25:40,794 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ee8a09850>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 17:25:40,800 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622202940794&signature=f7909d921440d0c3640ec5447af4051e2d40003865a3c8b83c626b07c4dd3ac7 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f7ee8a09e50>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 17:25:40,800 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:25:41,019 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 17:25:41,019 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f7ee89ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 17:25:43,024 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 17:25:43,025 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f7ee89ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 17:25:45,029 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 17:25:45,029 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f7ee89ce9a0>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 17:25:47,879 INFO :: Binance Websocket connection opened
+2021-05-28 17:25:53,468 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:25:54,137 INFO :: Binance Websocket connection opened
+2021-05-28 17:28:27,614 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:28:28,728 INFO :: Binance Websocket connection opened
+2021-05-28 17:29:10,314 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:29:10,972 INFO :: Binance Websocket connection opened
+2021-05-28 17:31:28,558 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:31:29,291 INFO :: Binance Websocket connection opened
+2021-05-28 17:33:34,914 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:33:35,661 INFO :: Binance Websocket connection opened
+2021-05-28 17:33:52,115 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:33:52,788 INFO :: Binance Websocket connection opened
+2021-05-28 17:34:04,608 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:34:05,275 INFO :: Binance Websocket connection opened
+2021-05-28 17:34:44,337 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:34:45,141 INFO :: Binance Websocket connection opened
+2021-05-28 17:35:28,778 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:35:29,465 INFO :: Binance Websocket connection opened
+2021-05-28 17:36:06,255 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:36:07,126 INFO :: Binance Websocket connection opened
+2021-05-28 17:45:44,380 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:45:45,285 INFO :: Binance Websocket connection opened
+2021-05-28 17:58:15,941 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:58:16,729 INFO :: Binance Websocket connection opened
+2021-05-28 17:58:35,769 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:58:36,744 INFO :: Binance Websocket connection opened
+2021-05-28 17:58:55,399 INFO :: Binance Future Client successfully initialized
+2021-05-28 17:58:56,127 INFO :: Binance Websocket connection opened
+2021-05-28 18:29:08,605 INFO :: Binance Future Client successfully initialized
+2021-05-28 18:29:09,357 INFO :: Binance Websocket connection opened
+2021-05-28 18:39:31,012 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe552a05bb0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 18:39:31,015 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622207371012&signature=4131717e7622ed164491d8dbe0383a657d007c2dd4c211fc262710501c0435b6 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe552a05820>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 18:39:31,016 INFO :: Binance Future Client successfully initialized
+2021-05-28 18:39:31,194 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:31,194 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:33,197 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:33,197 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:35,204 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:35,204 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:37,210 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:37,210 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:39,214 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:39,214 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:41,220 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:41,221 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 18:39:43,223 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 18:39:43,223 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe552a06160>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:15:57,955 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe677202e20>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:15:57,961 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622209557955&signature=48b83947dde093f33cace170adb5da6eaab4f618a36ea5f450742679e0994e06 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fe6772024c0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:15:57,962 INFO :: Binance Future Client successfully initialized
+2021-05-28 19:15:58,122 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:15:58,122 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe677203580>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:00,130 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:00,131 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe677203580>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:02,136 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:02,137 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe677203580>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:04,143 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:04,143 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe677203580>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:06,148 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:06,149 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7fe677203580>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:42,986 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9bd11f8e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:16:42,991 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622209602987&signature=3eaffad9a8043826d6bfe43d45b28d4d8e972776ce1898f11c5bf7998ff95a3e (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9bd11f8910>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:16:42,992 INFO :: Binance Future Client successfully initialized
+2021-05-28 19:16:43,103 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:43,104 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:45,108 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:45,108 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:47,110 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:47,111 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:49,116 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:49,116 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:51,122 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:51,123 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:53,127 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:53,128 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:55,131 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:55,131 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:57,135 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:57,135 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:16:59,142 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:16:59,142 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:01,146 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:01,146 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:03,149 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:03,149 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:05,157 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:05,158 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:07,161 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:07,161 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:09,164 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:09,165 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:11,170 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:11,170 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:13,177 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:13,178 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:15,182 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:15,183 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:17,187 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:17,187 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:19,192 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:19,193 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:21,196 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:21,197 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:23,202 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:23,203 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:25,206 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:25,207 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:27,213 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:27,213 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:29,220 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:29,221 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:31,225 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:31,226 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:33,230 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:33,230 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7f9bd1202f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:36,155 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ffe7e9f8e80>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:17:36,158 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622209656155&signature=25483e05653cc07c0165c75a882fef3718b80ca712a02f8ab81a2699524efb6c (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ffe7e9f8940>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 19:17:36,159 INFO :: Binance Future Client successfully initialized
+2021-05-28 19:17:36,358 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:36,359 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:38,364 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:38,364 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:40,367 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:40,367 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:42,371 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:42,372 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:44,374 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:44,374 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:46,379 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:46,381 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:48,386 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:48,388 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:50,394 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:50,394 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:52,401 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:52,401 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:54,406 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:54,406 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:56,411 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:56,411 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:17:58,413 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:17:58,414 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:00,416 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:00,416 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:02,420 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:02,420 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:04,426 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:04,426 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:06,432 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:06,432 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:08,438 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:08,439 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:10,441 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:10,441 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:12,443 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:12,443 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:14,449 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:14,449 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:16,452 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:16,452 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:18,456 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:18,456 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:20,461 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:20,461 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:22,465 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:22,465 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:24,471 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:24,472 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:26,477 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:26,478 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:28,480 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:28,481 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:30,485 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:30,485 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:32,491 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:32,491 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:34,494 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:34,494 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:36,500 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:36,500 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:38,505 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:38,505 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:40,510 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:40,510 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:42,514 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:42,514 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:44,517 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:44,517 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:46,524 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:46,525 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:48,532 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:48,532 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:50,539 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:50,539 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:52,543 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:52,544 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:54,546 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:54,546 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:56,553 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:56,553 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:18:58,556 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:18:58,556 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:00,560 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:00,560 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:02,565 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:02,565 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:04,570 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:04,570 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:06,573 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:06,573 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:08,579 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:08,579 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:10,581 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:10,581 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:12,588 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:12,588 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:14,592 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:14,592 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:16,595 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:16,595 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:18,598 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:18,599 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:20,604 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:20,604 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:22,611 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:22,612 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:24,619 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:24,619 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:26,626 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:26,626 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:28,633 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:28,634 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:30,640 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:30,640 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:32,643 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:32,644 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:34,647 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:34,647 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:36,654 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 19:19:36,654 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7ffe7ea02f10>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 19:19:44,672 INFO :: Binance Websocket connection opened
+2021-05-28 20:06:41,173 ERROR :: Connection error while making GET request to /fapi/v1/exchangeInfo: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v1/exchangeInfo (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feda49f56a0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 20:06:41,177 ERROR :: Connection error while making GET request to /fapi/v2/account: HTTPSConnectionPool(host='testnet.binancefuture.com', port=443): Max retries exceeded with url: /fapi/v2/account?timestamp=1622212601173&signature=493d43d3d41708cabe53b28421bf7b6953e19a66b62dac10c548476e39cd0046 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7feda49f5970>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-05-28 20:06:41,177 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:06:41,293 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 20:06:41,293 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7feda49dd610>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 20:06:43,299 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 20:06:43,300 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7feda49dd610>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 20:06:45,305 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 20:06:45,305 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7feda49dd610>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 20:06:47,308 ERROR :: Binance connection error: [Errno 8] nodename nor servname provided, or not known
+2021-05-28 20:06:47,309 ERROR :: error from callback <bound method BinanceFutureClient._on_close of <connectors.binance_future.BinanceFutureClient object at 0x7feda49dd610>>: _on_close() takes 2 positional arguments but 4 were given
+2021-05-28 20:14:25,389 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:14:26,173 INFO :: Binance Websocket connection opened
+2021-05-28 20:14:45,779 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:14:46,507 INFO :: Binance Websocket connection opened
+2021-05-28 20:17:17,793 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:17:18,528 INFO :: Binance Websocket connection opened
+2021-05-28 20:17:49,153 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:17:49,912 INFO :: Binance Websocket connection opened
+2021-05-28 20:18:47,629 INFO :: Binance Future Client successfully initialized
+2021-05-28 20:18:48,348 INFO :: Binance Websocket connection opened
