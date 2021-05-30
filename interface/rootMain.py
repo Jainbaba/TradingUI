@@ -27,10 +27,10 @@ class Root(tk.Tk):
         self._watchlist_frame = Watchlist(self.binance.contracts, self._left_frame, bg=BG_COLOR)
         self._watchlist_frame.pack(side=tk.TOP)
 
-        self._logging_frame = Logging(self._left_frame, bg=BG_COLOR)
-        self._logging_frame.pack(side=tk.TOP)
+        self.logging_frame = Logging(self._left_frame, bg=BG_COLOR)
+        self.logging_frame.pack(side=tk.TOP)
 
-        self._strategy_frame = StrategyEditor(self._right_frame,self.binance, bg=BG_COLOR)
+        self._strategy_frame = StrategyEditor(self, self.binance, self._right_frame, bg=BG_COLOR)
         self._strategy_frame.pack(side=tk.TOP)
 
         self._trades_frame = TradesWatch(self._left_frame, bg=BG_COLOR)
@@ -42,8 +42,28 @@ class Root(tk.Tk):
 
         for log in self.binance.logs:
             if not log['displayed']:
-                self._logging_frame.add_log(log['log'])
+                self.logging_frame.add_log(log['log'])
                 log['displayed'] = True
+
+        try:
+            for b_index, strat in self.binance.strategies.items():
+                for log in strat.logs:
+                    if not log['displayed']:
+                        self.logging_frame.add_log(log['log'])
+                        log['displayed'] = True
+
+                for trade in strat.trades:
+                    if trade.time not in self._trades_frame.body_widget['Symbol']:
+                        self._trades_frame.add_trade(trade)
+
+                    #precision = trade.contract.price_decimals
+                    pnl_str = round(trade.pnl,2)
+                    self._trades_frame.body_widget['PNL_var'][trade.time].set(pnl_str)
+                    self._trades_frame.body_widget['Status_var'][trade.time].set(trade.status.capitalize())
+
+
+        except RuntimeError as e:
+            logger.error("Error While Looping through watchlist dictionary: %s", e)
 
         try:
             for key, value in self._watchlist_frame.body_widget["Symbol"].items():

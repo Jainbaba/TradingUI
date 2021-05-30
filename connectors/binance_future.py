@@ -12,6 +12,7 @@ import requests
 import websocket
 
 from models import *
+from strategies import TechincalStrategy, BreakoutStrategy
 
 logger = logging.getLogger()
 
@@ -31,6 +32,7 @@ class BinanceFutureClient:
         self._header = {'X-MBX-APIKEY': self._public_key}
         self._ws = None
         self.prices = dict()
+        self.strategies: typing.Dict[int, typing.Union[TechincalStrategy, BreakoutStrategy]] = dict()
         self._ws_id = 1
 
         self.logs = []
@@ -96,8 +98,7 @@ class BinanceFutureClient:
 
         if raw_candles is not None:
             for c in raw_candles:
-                candles.append(Candle(c))
-
+                candles.append(Candle(c, interval, 'binance'))
         return candles
 
     def get_bid_ask(self, contract: Contracts) -> typing.Dict[str, float]:
@@ -134,7 +135,7 @@ class BinanceFutureClient:
                     tif=None) -> OrderStatus:
         data = dict()
         data['symbol'] = contract.symbol
-        data['side'] = side
+        data['side'] = side.upper()
         data['quantity'] = quantity
         data['type'] = order_type
 
@@ -191,7 +192,8 @@ class BinanceFutureClient:
         logger.info("Binance Websocket connection opened")
         self.subscribe_channel(list(self.contracts.values()), "bookTicker")
 
-    def _on_close(self, ws):
+    def _on_close(self, ws,a,b):
+        print(a,b)
         logger.warning("Binance Websocket connection closed")
 
     def _on_error(self, ws, msg: str):
@@ -210,9 +212,27 @@ class BinanceFutureClient:
                     self.prices[symbol]['bidQty'] = float(data["B"])
                     self.prices[symbol]["ask"] = float(data["a"])
                     self.prices[symbol]['askQty'] = float(data["A"])
+                try:
+                    for b_index, strat in self.strategies.items():
+                        if strat.contract.symbol == symbol:
+                            for trade in strat.trades:
+                                if trade.status == "open" and trade.entry_price is not None:
+                                    if trade.side == "long":
+                                        trade.pnl = (self.prices[symbol]['bid'] - trade.entry_price) * trade.quantity
 
-                # if symbol == 'BNBUSDT':
-                #     self._add_log(symbol + ' ' + str(self.prices[symbol]['bid']) + ' / ' + str(self.prices[symbol]['ask']))
+                                    elif trade.side == "short":
+                                        trade.pnl = (trade.entry_price - self.prices[symbol]['ask']) * trade.quantity
+
+                except RuntimeError as e:
+                    logger.error("Error while looping through the Binance strategies: %s", e)
+
+            elif data['e'] == 'aggTrade':
+                symbol = data['s']
+
+                for key, strat in self.strategies.items():
+                    if strat.contract.symbol == symbol:
+                        res = strat.parse_trades(float(data['p']), float(data['q']), data['T'])
+                        strat.check_trade(res)
 
     def subscribe_channel(self, contracts: typing.List[Contracts], channel: str):
         data = dict()
@@ -228,3 +248,21 @@ class BinanceFutureClient:
             return None
 
         self._ws_id += 1
+
+    def get_trade_size(self, contract: Contracts, price: float, balance_pct: float):
+
+        balance = self.get_balances()
+
+        if balance is not None:
+            if 'USDT' in balance:
+                balance = balance['USDT'].wallet_balance
+            else:
+                return None
+        else:
+            return None
+
+        trade_size = (balance * balance_pct / 100) / price
+        trade_size = round(round(trade_size / contract.lot_size) * contract.lot_size, 8)
+        logger.info("Binance Futures current USDT balance = %s, trade size = %s", balance, trade_size)
+
+        return trade_size
